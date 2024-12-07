@@ -31,7 +31,7 @@ end
 def play_game(secret_word)
   guessed_letters = []
   incorrect_guesses = []  # Changed from incorrect_letters
-  max_guesses = 6
+  max_guesses = 12
 
   while true
     puts display_word(secret_word, guessed_letters)
